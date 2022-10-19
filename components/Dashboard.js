@@ -16,7 +16,7 @@ export default function Dashboard() {
   const [totalUnClaimedSupply, setTotalUnClaimedSupply] = useState(0);
 
   const address = useAddress();
-  const nftdrop = useNFTDrop("0xa196cE1Cd7EE70F87c8086975CeF7401882258Ce");
+  const nftdrop = useNFTDrop("0x322067594DBCE69A9a9711BC393440aA5e3Aaca1");
 
   useEffect(() => {
     if(!nftdrop || !address) return;
